@@ -16,7 +16,7 @@ class School
     if @roster.key?(@grade)
       @roster[@grade] << @name
     else
-      @roster[@grade] = {@grade => [name]}
+      @roster[@grade] = [name]
     end
   end
 
