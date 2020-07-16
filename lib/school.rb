@@ -32,6 +32,3 @@ class School
     sorted_roster
   end
 end
-
-
-
