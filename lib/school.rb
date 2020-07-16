@@ -16,7 +16,7 @@ class School
     if @roster.key?(@grade)
       @roster[@grade] << @name
     else
-      #@roster.merge {@grade => [name]}
+      @roster.merge {@grade => [name]}
     end
   end
 
