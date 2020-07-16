@@ -14,7 +14,7 @@ class School
     @name = name
     @grade = grade
 
-    @roster << {:grade => name}
+    @roster = {:grade => name}
   end
 
 end
